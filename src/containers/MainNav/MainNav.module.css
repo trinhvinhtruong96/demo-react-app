@@ -1,0 +1,9 @@
+.Container {
+    background-color: #323232;
+}
+
+.MainNav {
+    max-width: 98rem;
+    margin: 0 auto;
+    display: flex;
+}

@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import MainNav from '../../containers/MainNav/MainNav';
+
 
 class Layout extends Component {
     render() {
         return (
-            <React.Fragment>
-                <div>header</div>
+            <React.Fragment> 
+                <MainNav />
                 <main>
                     {this.props.children}
                 </main>
