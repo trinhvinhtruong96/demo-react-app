@@ -3,6 +3,7 @@ import classes from './MainNav.module.css';
 import Logo from '../../components/Logo/Logo'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import Button from '../../components/Button/Button';
+import NavButton from '../../components/NavButton/NavButton';
 
 class MainNav extends Component {
     render() {
@@ -11,7 +12,8 @@ class MainNav extends Component {
                 <div className={classes.MainNav}>
                     <Logo />
                     <SearchBar />
-                    <Button type="black">Login</Button>
+                    <Button type="Black">Login</Button>
+                    <NavButton />
                 </div>
             </div>
 

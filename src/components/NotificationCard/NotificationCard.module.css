@@ -1,0 +1,17 @@
+.Card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.Icon {
+    flex: 0 1 auto;
+}
+
+.Paragraph {
+    flex: 0 1 auto;
+}
+
+.Button {
+    flex: 0 1 auto;
+}

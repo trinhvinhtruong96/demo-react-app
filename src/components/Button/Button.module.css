@@ -8,12 +8,13 @@
     font-family: inherit;
 }
 
-.black {
+.Black {
     background-color: #323232;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
-.black:hover {
+.Black:hover {
     background-color: #202020;
 }
+
