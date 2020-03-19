@@ -4,6 +4,7 @@ import Logo from '../../components/Logo/Logo'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import Button from '../../components/Button/Button';
 import NavButton from '../../components/NavButton/NavButton';
+import BurgerButton from '../../components/BurgerButton/BurgerButton';
 
 class MainNav extends Component {
     render() {
@@ -31,6 +32,11 @@ class MainNav extends Component {
                     >
                         Không có sản phẩm trong giỏ hàng
                     </NavButton>
+                    <BurgerButton
+                        icon="icon-menu"
+                    >
+
+                    </BurgerButton>
                 </div>
             </div>
 
