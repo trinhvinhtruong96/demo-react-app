@@ -1,5 +1,7 @@
 .Container {
     background-color: #323232;
+    position: fixed;
+    width: 100%;
 }
 
 .MainNav {

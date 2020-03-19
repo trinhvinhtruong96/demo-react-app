@@ -10,11 +10,23 @@
 
 .Black {
     background-color: #323232;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    font-size: 120%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    height: 5rem;
 }
 
 .Black:hover {
     background-color: #202020;
+}
+
+.Raw {
+    color: #2980b9;
+    background-color: inherit;
+    margin-top: 1rem;
+}
+
+.Raw:hover {
+    border-bottom: 1px solid #2980b9;
 }
 

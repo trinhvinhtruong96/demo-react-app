@@ -4,15 +4,15 @@ import Button from '../Button/Button'
 
 function NotificationCard(props) {
     return (
-        <div className={classes.Card}>
+        <div className={[classes.Card,classes[props.showNotification]].join(' ')}>
             <div className={classes.Icon}>
-                <i className={classes[props.icon]} />
+                <i className={props.icon} />
             </div>
             <p className={classes.Paragraph}>
-                Chúng tôi sẽ thông báo cho bạn về các mặt hàng yêu thích của bạn và thông tin giảm giá cửa hàng
+                {props.children}
             </p>
             <div className={classes.Button}>
-                <Button type="Black"><i className="icon-message-square" /></Button>
+                <Button type="Raw">{props.action}</Button>
             </div>
         </div>
     );

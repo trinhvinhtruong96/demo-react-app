@@ -1,17 +1,37 @@
 .Card {
-    position: absolute;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    width: 29rem;
+    line-height: normal;
+    padding: 2rem;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+    transition: all .2s;
 }
 
 .Icon {
-    flex: 0 1 auto;
+    font-size: 5rem;
+    color: #2980b9;
+    font-weight: 300;
 }
 
 .Paragraph {
-    flex: 0 1 auto;
+    text-align: center;
+    color: #747474;
 }
 
 .Button {
     flex: 0 1 auto;
+}
+
+.Show {
+    display: flex;
+}
+
+.Hide {
+    display: none;
 }
