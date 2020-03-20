@@ -1,3 +1,4 @@
+/* common */
 .Btn {
     cursor: pointer;
     color: #fff;
@@ -7,7 +8,7 @@
     font-size: inherit;
     font-family: inherit;
 }
-
+/* black background collor */
 .Black {
     background-color: #323232;
     padding-left: 1.5rem;
@@ -18,14 +19,24 @@
 .Black:hover {
     background-color: #202020;
 }
-
-.Raw {
+/* raw blue button */
+.RawBlue {
     color: #2980b9;
     background-color: inherit;
     margin-top: 1rem;
 }
 
-.Raw:hover {
+.RawBlue:hover {
     border-bottom: 1px solid #2980b9;
+}
+/* raw button */
+.Raw {
+    color: #747474;
+    background-color: inherit;
+    margin-top: 1rem;
+}
+
+.Raw:hover {
+    border-bottom: 1px solid #747474;
 }
 

@@ -12,7 +12,7 @@ function NotificationCard(props) {
                 {props.children}
             </p>
             <div className={classes.Button}>
-                <Button type="Raw">{props.action}</Button>
+                <Button type="RawBlue">{props.action}</Button>
             </div>
         </div>
     );
