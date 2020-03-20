@@ -18,3 +18,39 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
 }
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 715px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  html {
+    font-size: 35%;
+  }
+}
