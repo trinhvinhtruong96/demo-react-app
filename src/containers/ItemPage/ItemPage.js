@@ -30,7 +30,7 @@ function ItemPage(props) {
                 data={fakeData.shopData}
             />
             <Introduction
-                title="Xem áo phông / cutsews từ các cửa hàng khác"
+                title="Giới thiệu ZOZOTOWN"
                 introduction="ZOZOTOWN là một trang web đặt hàng qua thư thời trang có nhiều mặt hàng của các thương hiệu nổi tiếng như áo phông / áo thun cắt may của KOBE LettUCE. Mua 7599 mặt hàng thương hiệu mới nhất trên mạng, bao gồm áo phông và đồ cắt may."
             />
         </Fragment>
