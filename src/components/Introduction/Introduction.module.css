@@ -1,0 +1,29 @@
+.Title {
+    margin-left: 2%;
+    font-size: 125%;
+}
+
+.Introduction {
+    width: 92%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 2rem;
+    color: rgb(145, 145, 145);
+    margin-top: 1rem;
+    font-size: 90%;
+    margin-bottom: 2rem;
+}
+
+.FieldsBox {
+    width: 106rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+
+  
+  
+
+

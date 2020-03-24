@@ -1,0 +1,10 @@
+.Footer {
+    background-color: rgb(233, 233, 233);
+    padding: 5rem;
+}
+
+.Footerr {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: start;
+}

@@ -1,29 +1,13 @@
 import React from 'react';
-import logo from './assets/images/logo.svg';
-import './App.css';
 import Layout from './HOC/Layout/Layout';
+import ItemPage from './containers/ItemPage/ItemPage';
 
 function App() {
-  return (
-    <Layout>
-		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
-		</div>
-    </Layout>
-  );
+	return (
+		<Layout>
+			<ItemPage />
+		</Layout>
+	);
 }
 
 export default App;

@@ -1,0 +1,67 @@
+.Item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    flex: 0 0 12%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2rem;
+}
+
+.PictureBox {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.Picture {
+    width: 100%;
+    cursor: pointer;
+}
+
+.Picture:hover {
+    opacity: 0.7;
+}
+
+.TagBox {
+    position: absolute;
+    top: -0.5rem;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+.Tag {
+    font-size: 70%;
+    padding: 0.5rem 1rem;
+    background-color: rgb(143, 143, 143);
+    opacity: 0.5;
+    color: #fff;
+}
+
+.SaleBox {
+    position: absolute;
+    bottom: 0.55rem;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+.Sale {
+    font-size: 70%;
+    padding: 0.3rem 0.7rem;
+    background-color: rgb(236, 61, 61);
+    color: #fff;
+}
+
+.Name {
+    font-size: 80%;
+    color: rgb(139, 139, 139);
+    line-height: normal;
+}
+
+.Price {
+    color: rgb(230, 28, 28);
+    line-height: normal;
+}
