@@ -207,4 +207,19 @@ export const shopData = [
     },
 ]
 
+export const suggestPost = [
+    {
+        id:1,
+        pic:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        content: "ZOZOTOWN là một trang web đặt hàng qua thư thời trang có nhiều mặt hàng",
+        tag: "#CBK magazine",
+    },
+    {
+        id:2,
+        pic:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        content: "ZOZOTOWN là một trang web đặt hàng qua thư thời trang có nhiều mặt hàng",
+        tag: "#CBK magazine",
+    }
+]
+
 

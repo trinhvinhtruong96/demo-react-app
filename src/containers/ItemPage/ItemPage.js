@@ -6,7 +6,7 @@ import OtherShop from '../../components/OtherShop/OtherShop';
 import Introduction from '../../components/Introduction/Introduction';
 import * as fakeData from '../../assets/dataJson/catagories'
 import ShareBox from '../../components/ShareBox/ShareBox';
-import SuggestPost from '../../components/SuggestPost/SuggestPost';
+import SuggestPosts from '../../components/SuggestPosts/SuggestPosts';
 
 function ItemPage(props) {
     return (
@@ -36,10 +36,7 @@ function ItemPage(props) {
                 introduction="ZOZOTOWN là một trang web đặt hàng qua thư thời trang có nhiều mặt hàng của các thương hiệu nổi tiếng như áo phông / áo thun cắt may của KOBE LettUCE. Mua 7599 mặt hàng thương hiệu mới nhất trên mạng, bao gồm áo phông và đồ cắt may."
             />          
             <ShareBox />
-            <SuggestPost 
-                pic={fakeData.itemsData[0].pic}
-                content="ZOZOTOWN là một trang web đặt hàng qua thư thời trang có nhiều mặt hàng"
-            />
+            <SuggestPosts data={fakeData.suggestPost} />
         </Fragment>
     );
 }

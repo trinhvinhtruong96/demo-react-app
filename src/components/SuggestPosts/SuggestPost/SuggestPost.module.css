@@ -1,0 +1,46 @@
+.SuggestPost {
+    display: flex;
+    width: 28rem;
+    height: 7.1rem;
+    margin: 1rem;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.SuggestPost:hover .Content {
+    text-decoration: underline;
+}
+
+.SuggestPost:hover .Picture {
+    opacity: 0.7;
+}
+
+.PictureBox {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 1rem;
+    flex: 0 0 30%;
+}
+
+.Picture {
+    width: 100%;
+}
+
+.ContentBox {
+    flex: 0 0 70%;
+    line-height: normal;
+}
+
+.Content {
+    text-align: start;
+    margin: 0;
+    font-size: 90%;
+}
+
+
+.Tag {
+    font-size: 60%;
+    color: rgb(136, 136, 136);
+    margin-top: 0.3rem;
+}

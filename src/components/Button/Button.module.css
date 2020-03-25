@@ -39,7 +39,7 @@
 }
 
 .Raw:hover {
-    border-bottom: 1px solid #747474;
+    text-decoration: underline;
 }
 /* tag button */
 .Tag {
