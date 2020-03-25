@@ -1,0 +1,28 @@
+.LoveBox {
+    display: flex;
+    width: 22.5rem;
+    border: 1px solid #007ebe;
+    cursor: pointer;
+}
+.LoveBox:hover {
+    opacity: 0.7;
+}
+
+.Icon {
+    font-size: 200%;
+    color: #007ebe;
+    margin-right: 1rem;
+}
+
+.Content {
+    font-size: 90%;
+    color: #007ebe;
+}
+
+.Loved {
+    color: rgb(250, 0, 0) !important;
+}
+
+.LovedBox {
+    background-color: rgba(255, 4, 4, 0.377);
+}

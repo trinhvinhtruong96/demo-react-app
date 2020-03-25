@@ -1,0 +1,17 @@
+.ShareBox {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.ShareBox::before {
+    display: block;
+    height: 1px;
+    background-color: #afafaf;
+    content: " ";
+    width: 100%;
+}
+
+.Title {
+    font-size: 90%;
+    margin: 1rem 0;
+}

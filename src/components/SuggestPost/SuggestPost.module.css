@@ -1,0 +1,17 @@
+.SuggestPost {
+    display: flex;
+    width: 30rem;
+}
+.PictureBox {
+    width: 20rem;
+    height: 8rem;
+    overflow: hidden;
+}
+
+.Picture {
+    width: 100%;
+}
+
+.Content {
+    text-align: start;
+}
