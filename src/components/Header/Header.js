@@ -8,7 +8,7 @@ function Header(props) {
             <div className={classes.Image}>&nbsp;</div>
             <div className={classes.Recomendation}>
                 <div className={classes.Icon}>
-                    <i class="icon-airplane"></i>
+                    <i className="icon-airplane"></i>
                 </div>
                 <div className={classes.Content} >
                     <span className={classes.text}>For international customer, shop with our partner Buyee</span>

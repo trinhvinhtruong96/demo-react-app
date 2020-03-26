@@ -6,7 +6,7 @@ function ButtonTag(props) {
         <div className={classes.LaterPayWrapper}>
             <div data-toggle={classes.Later_pay}>
                 <p className={classes.Font_bold}>ツケ払いできます</p>
-                <p>お支払いは5月26日<span class={classes.TextDecoration}>詳細</span></p>
+                <p>お支払いは5月26日<span className={classes.TextDecoration}>詳細</span></p>
             </div>
         </div>
     );

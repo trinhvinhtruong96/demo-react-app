@@ -1,0 +1,26 @@
+.QualitySide {
+    margin-top: 1rem;
+}
+
+.Control {
+    display: flex;
+}
+
+.Button {
+    padding: 1rem;
+}
+
+.Nothing {
+    flex: 1;
+    border-bottom: 1px solid rgb(151, 151, 151);
+}
+
+.BorderThree {
+    border-top: 1px solid rgb(151, 151, 151);
+    border-right: 1px solid rgb(151, 151, 151);
+    border-left: 1px solid rgb(151, 151, 151);
+}
+
+.BoderBottom {
+    border-bottom: 1px solid rgb(151, 151, 151);
+}

@@ -1,0 +1,27 @@
+.DetailQuality {
+    margin-top: 2rem;
+    margin-left: 2%;
+}
+
+.DetailQuality::after {
+    display: block;
+    height: 1px;
+    background-color: #afafaf;
+    content: " ";
+    width: 100%;
+    margin: 1rem 0 1rem 0;
+  }  
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+.TextData {
+    font-size: 90%;
+    margin-top: 1rem;
+}

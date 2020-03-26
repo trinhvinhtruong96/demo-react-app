@@ -8,6 +8,9 @@ import MainProduct from '../MainProduct/MainProduct';
 import ProductHeader from '../ProductHeader/ProductHeader';
 import BuyingAction from '../BuyingAction/BuyingAction';
 import RecomendProduct from '../RecomendProduct/RecomendProduct';
+import ProductQuality from '../ProductQuality/ProductQuality';
+import DetailQuality from '../DetailQuality/DetailQuality';
+import QualitySide from '../QualitySide/QualitySide';
 
 function BuyingArea(props) {
     const product = fakeData.recomendProduct.map(cur =>
@@ -34,6 +37,7 @@ function BuyingArea(props) {
                 <div className={classes.LeftSide}>
                     <BuyingAction />
                     {product}
+                    <QualitySide />
                     <ShareBox />
                 </div>
             </div>
