@@ -6,3 +6,18 @@
     width: 100%;
     margin-left: 2%;
 }
+
+@media only screen and (max-width: 700px) {
+    .SuggestPosts {
+        width: 100%;
+        margin-left: 0;
+    }
+    .SuggestPosts::after {
+        display: block;
+        height: 1px;
+        background-color: #afafaf;
+        content: " ";
+        width: 92%;
+        margin: 0;
+      }  
+  }
