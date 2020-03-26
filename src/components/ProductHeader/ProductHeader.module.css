@@ -1,0 +1,15 @@
+.Header {
+    font-size: 250%;
+    letter-spacing: 1rem;
+}
+
+.Directory {
+    display: flex;
+    font-size: 90%;
+    letter-spacing: 0.5rem;
+}
+
+.ProductHeader {
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,18 @@
+.MarriedRow {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.Price {
+    font-size: 200%;
+    color: red;
+}
+
+.BuyingAction::after {
+    display: block;
+    height: 1px;
+    background-color: #afafaf;
+    content: " ";
+    width: 100%;
+}

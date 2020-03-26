@@ -1,0 +1,44 @@
+.Header {
+    display: flex;
+    flex-direction: column;
+}
+
+.Header::after {
+    display: block;
+    height: 1px;
+    background-color: #afafaf;
+    content: " ";
+    width: 100%;
+  }  
+
+.Image {
+    margin-top: 5rem;
+    background-image: url(../../assets/images/items/zozosale_hdr_pc.jpg);
+    flex: 0 0 3.5rem;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    cursor: pointer;
+}
+
+.Recomendation {
+    display: flex;
+    color: #2980b9;
+    padding: 1rem;
+    align-self: center;
+}
+
+.Recomendation:hover {
+    opacity: 0.7;
+}
+
+.Icon {
+    margin-right: 1rem;
+}
+
+.Content {
+    margin-right: 1rem;
+}
+
+.Button {
+    margin-right: 1rem;
+}

@@ -1,0 +1,29 @@
+.TypeProduct {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2%;
+    margin-top: 1.5rem;
+}
+
+.MainProduct::after {
+    display: block;
+    height: 1px;
+    background-color: #afafaf;
+    content: " ";
+    width: 92%;
+    margin: 1rem 0 4rem 0;
+}
+
+.Product {
+    margin-left: 2%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.Product:hover {
+    opacity: 0.7;
+}
+
+.Image {
+    width: 90%;
+}

@@ -1,0 +1,28 @@
+.RecomendProductBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.RecomendProduct::after {
+    display: block;
+    height: 1px;
+    background-color: #afafaf;
+    content: " ";
+    width: 100%;
+    margin: 0;
+  }  
+
+.TextBox {
+    font-size: 80%;
+}
+
+.IconBox {
+    line-height: normal;
+    font-size: 150%;
+    padding: 0.5rem;
+    border: 2px solid rgb(99, 99, 99);
+    border-radius: 100%;
+}

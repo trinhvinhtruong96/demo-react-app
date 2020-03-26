@@ -1,0 +1,19 @@
+.ButtonBuying {
+    color: #fff;
+    background-color: #2980b9;
+    display: flex;
+    justify-content:center;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+    width: 20rem;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.ButtonBuying:hover {
+    opacity: 0.7;
+}
+
+.IconBox {
+    margin-right: 1rem;
+}

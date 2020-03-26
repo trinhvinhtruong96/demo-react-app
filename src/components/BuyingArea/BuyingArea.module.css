@@ -1,0 +1,18 @@
+.BuyingArea {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.MainArea {
+    margin-left: 2%;
+    display: flex;
+}
+
+.RightSide {
+    flex: 0 0 60%;
+    margin-right: auto;
+}
+
+.LeftSide {
+    flex: 0 0 40%;
+}

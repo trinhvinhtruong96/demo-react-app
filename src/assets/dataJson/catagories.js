@@ -144,64 +144,64 @@ export const itemsData = [
 
 export const tagData = [
     {
-        id:1,
+        id: 1,
         type: "Tag",
         tag: "react",
     },
     {
-        id:2,
+        id: 2,
         type: "Tag",
         tag: "redux",
     },
     {
-        id:3,
+        id: 3,
         type: "Tag",
         tag: "javascript",
     },
     {
-        id:4,
+        id: 4,
         type: "Tag",
         tag: "asp.net",
     }
 ]
 export const shopData = [
     {
-        id:1,
+        id: 1,
         type: "Raw",
         tag: "react",
     },
     {
-        id:2,
+        id: 2,
         type: "Raw",
         tag: "redux",
     },
     {
-        id:3,
+        id: 3,
         type: "Raw",
         tag: "javascript",
     },
     {
-        id:4,
+        id: 4,
         type: "Raw",
         tag: "asp.net",
     },
     {
-        id:5,
+        id: 5,
         type: "Raw",
         tag: "smt32f103c8t6",
     },
     {
-        id:6,
+        id: 6,
         type: "Raw",
         tag: "stmf4",
     },
     {
-        id:7,
+        id: 7,
         type: "Raw",
         tag: "lm3586",
     },
     {
-        id:8,
+        id: 8,
         type: "Raw",
         tag: "lm389",
     },
@@ -209,17 +209,109 @@ export const shopData = [
 
 export const suggestPost = [
     {
-        id:1,
-        pic:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        id: 1,
+        pic: "/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
         content: "ZOZOTOWN là một trang web đặt hàng qua thư thời trang có nhiều mặt hàng",
         tag: "#CBK magazine",
     },
     {
-        id:2,
-        pic:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        id: 2,
+        pic: "/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
         content: "ZOZOTOWN là một trang web đặt hàng qua thư thời trang có nhiều mặt hàng",
         tag: "#CBK magazine",
     }
 ]
 
+export const typeProduct = [
+    {
+        id:1,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:2,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:3,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:4,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:5,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:6,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:7,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:8,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:9,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:10,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:11,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    },
+    {
+        id:12,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        text:"Màu be"
+    }
+]
 
+export const recomendProduct= [
+    {
+        id:1,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        imgText:"ao dep",
+        priceText:"FREE / 残り1点",
+        noteText:"Mサイズ相当",
+    },
+    {
+        id:2,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        imgText:"ao dep",
+        priceText:"FREE / 残り1点",
+        noteText:"Mサイズ相当",
+    },
+    {
+        id:3,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        imgText:"ao dep",
+        priceText:"FREE / 残り1点",
+        noteText:"Mサイズ相当",
+    },
+    {
+        id:4,
+        img:"/demo-react-app/static/media/13332824b_19_d_215.c8a5266c.jpg",
+        imgText:"ao dep",
+        priceText:"FREE / 残り1点",
+        noteText:"Mサイズ相当",
+    },
+]
