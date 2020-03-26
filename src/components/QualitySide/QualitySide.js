@@ -20,7 +20,6 @@ function QualitySide(props) {
         button1.push(classes.BorderThree)
         component = <ProductQuality />;;
     }
-    console.log(choose);
     return (
         <div className={classes.QualitySide}>
             <div className={classes.Control}>
